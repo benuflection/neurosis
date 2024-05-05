@@ -53,9 +53,9 @@ model = tf.keras.Sequential([
     # Max pooling layer with 2x2 window to reduce spatial dimensions
     tf.keras.layers.MaxPooling2D(2, 2),
     # Convolutional layer with 64 filters, each 3x3 pixels, using ReLU activation
-    tf.keras.layers.Conv2D(64, (3, 3), activation='relu'),
+    #tf.keras.layers.Conv2D(64, (3, 3), activation='relu'),
     # Max pooling layer with 2x2 window to reduce spatial dimensions
-    tf.keras.layers.MaxPooling2D(2, 2),
+    #tf.keras.layers.MaxPooling2D(2, 2),
     # Convolutional layer with 128 filters, each 3x3 pixels, using ReLU activation
     tf.keras.layers.Conv2D(128, (3, 3), activation='relu'),
     # Max pooling layer with 2x2 window to reduce spatial dimensions
